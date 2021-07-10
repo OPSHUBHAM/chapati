@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    bottom: 0;
+    color: blue;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    display: table;
+    background: linear-gradient(cyan 0%, lime 100%);
+}
+#biome{
+    padding:50px;
+    text-align: center;
+    font-size: 40px;
+}
+.line{
+    height: 6px;
+    background-color: blue;
+    width: 70px;
+    margin: 8px auto; 
+}
+p{
+    font-size: 17px;
+}
+.links{
+    display: inline;
+    color: blue;
+    font-size: 20px;
+    padding-left: 33px;
+    padding-right: 25px;
+}
+.links:hover{
+    background-color: rgb(11, 252, 11);
+}
+html{
+    scroll-behavior: smooth;
+}
+#contact{
+    background-color: chartreuse;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact1 h3{
+    display: inline;
+}
+.contact1 a{
+    color: cornsilk;
+    text-shadow: none;
+}
+.mynav{
+    position: sticky;
+    top: 0;
+}
